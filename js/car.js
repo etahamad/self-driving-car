@@ -50,7 +50,7 @@ class Car{
             if(this.controls.right){
                 this.angle -= 0.03 * flip;
             }
-    }
+        }
 
         this.x -= this.speed * Math.sin(this.angle);
         this.y -= this.speed * Math.cos(this.angle);
